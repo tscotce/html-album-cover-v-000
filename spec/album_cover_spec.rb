@@ -27,7 +27,7 @@ RSpec.describe 'HTML Album Cover' do
         # expect(back_cover.children.any? {|ch| ch.name == "span"}).to be == true, "No 'span' tag was found"
         # expect(back_cover.children.select {|ch| ch.name == "span"}.first.children.first.text).to include("PHARRELLWILLIAMS.COM"), "The first span tag should include the text 'PHARRELLWILLIAMS.COM'"
 
-        expect(back_cover.children.select {|ch| ch.name == "img"}.length).to be >= 2, "Make sure to include both `img` tags"
+        # expect(back_cover.children.select {|ch| ch.name == "img"}.length).to be >= 2, "Make sure to include both `img` tags"
 
       end
 
